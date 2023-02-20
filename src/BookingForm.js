@@ -35,24 +35,6 @@ const BookingForm = () => {
   },[formData])
 
   return (
-    // <form onSubmit={handleSubmit}>
-    // <label>
-    //     Movie:
-    //     <input type="text" value={movie} onChange={handleMovieChange} />
-    //   </label>
-    //   <br />
-    //   <label>
-    //     Name:
-    //     <input type="text" value={name} onChange={handleNameChange} />
-    //   </label>
-    //   <br />
-    //   <label>
-    //     Email:
-    //     <input type="email" value={email} onChange={handleEmailChange} />
-    //   </label>
-    //   <br />
-    //   <button type="submit">Register</button>
-    // </form>
     <div className="registration-form-container">
     <form className="registration-form" onSubmit={handleSubmit}>
       <h2 className="registration-form__title">Book Your Ticket</h2>
